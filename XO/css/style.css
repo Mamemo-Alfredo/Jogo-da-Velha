@@ -1,0 +1,92 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.096);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+a {
+    color: white;
+}
+
+button {
+    border-radius: 2vh;
+    padding: 1vh;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-right: 2vh;
+    width: 50%;
+    border: none;
+    box-shadow: gray 0 2px 4px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+a:hover {
+    color: black;
+}
+
+#texto-1 {
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+
+#div-inicio-1 {
+    background-color: white;
+    width: 20%;
+    margin: auto;
+    padding: 2vh;
+    text-align: center;
+    align-items: center;
+    box-shadow: gray 0 10px 15px;
+    border-radius: 1vh;
+}
+
+#div-inicio-2 {
+    margin-top: 2vh;
+    display: flex;
+}
+
+#div-amigo-1 {
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    padding: 2vh;
+    text-align: center;
+    align-items: center;
+    box-shadow: gray 0 10px 15px;
+    border-radius: 1vh;
+}
+
+#painel-xo {
+    width: 100%;
+}
+
+#painel-xo-l {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#painel-xo-l button {
+    background-color: white;
+    width: 25%;
+    height: 15vh;
+    margin: auto;
+    color: black;
+    font-size: 10vh;
+}
+
